@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+	int x;
+	printf("What is your pain from 1 being almost nothing to 10 feeling very unbearable: ");
+	scanf("%d/n", &x);
+
+	
+	if (x>=8)
+	{
+		printf("You are in extreme pain.",x); //Immediate attention required
+	}
+	
+	else if (x>=5)
+	{
+		printf("The pollution level is medium.",x);//Your pain must take action
+	}
+	
+	else if (x>=3)
+	{
+		printf("Your pain is noticable",x); //Pain must be monitered 
+	}
+	
+	else if (x<2)
+	{
+		printf("You feel fine for the most part.",x); //Concern minimal
+	}
+   
+	return 0;
+}
