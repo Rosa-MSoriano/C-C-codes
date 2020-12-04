@@ -13,7 +13,7 @@ int main()
 	
 	else if (x>=5)
 	{
-		printf("The pollution level is medium.",x);//Your pain must take action
+		printf("You are in misery.",x);//Your pain must take action
 	}
 	
 	else if (x>=3)
